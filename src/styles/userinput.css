@@ -1,0 +1,114 @@
+.container{
+    padding: 15px !important;
+    margin: 0 auto !important;
+    width: 100%;
+}
+
+.container h2, strong{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container-banner{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    display: inline-block;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.image-traine{
+    width: 120px;
+}
+
+.welcome{
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px 0 10px;
+    margin: 0;
+}
+
+form{
+    margin: 0 auto;
+    position: relative;
+    width: 335px;
+}
+
+.inputs{
+    position: relative;
+}
+
+input{
+    margin: 0 auto;
+    width: 90%;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 19px !important;
+    color: grey;
+    box-shadow: -10px -10px 15px rgb(58 58 58 / 9%), 10px 10px 15px rgb(66 66 66 / 35%);
+    transition: .5s;
+    padding: 5px;
+    text-align: center;
+    color: rgb(231, 106, 106);
+}
+
+button{
+    cursor: pointer;
+    width: 41px;
+    height: 41px;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+    background-color: rgb(68, 238, 139);
+    border: none;
+}
+
+.btn-user{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 12px;
+    background-color: rgb(68, 238, 139);
+}
+
+.bnt-search{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 12px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(68, 238, 139);
+}
+
+.bx-send{
+    color: white;
+}
+
+@media (min-width: 576px) {
+    .container{
+      max-width: 579px;
+    }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 992px){
+  .container{
+    max-width: 992px;
+  }
+}

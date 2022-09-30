@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,700;0,800;1,300;1,600;1,700;1,800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, .87);
+}
+
+img{
+  border-style: none;
+}
+
+.App{
+  font-family: Poppins, 'Times New Roman', Times, serif;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.ball-background{
+  background-image:  url(./img/pokeball.png);
+  position: fixed;
+  background-color: transparent;
+  filter: brigthness(200%);
+  -webkit-filter: brightness(200%);
+  z-index: -1;
+  right: -90px;
+  top: -40px;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+  animation-direction: reverse;
+}
+
+@keyframes rotate {from { transform: rotate(0deg); -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg); }
+    to { transform: rotate(360deg); -webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -ms-transform: rotate(360deg); -o-transform: rotate(360deg); }}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+.ball-background{
+    -webkit-animation: 3s rotate linear infinite;
+    animation: 3s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
