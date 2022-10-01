@@ -56,7 +56,7 @@ const CharacterDetail = () => {
             
             </div>
             <div className='image-logo'>
-                <img className='img-presentation' src="../src/img/Pokemon-Logo.png" alt="" />
+                <img className='img-presentation' src="https://logos-marcas.com/wp-content/uploads/2020/05/Pokemon-Logo.png" alt="" />
             </div>
             <div className='information-pokemon'>
                 <div className='info-pokemon-weigth'>
