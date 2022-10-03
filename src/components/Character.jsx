@@ -60,7 +60,7 @@ const Character = () => {
     }
 
     const [page, setPage] = useState(1);
-    const charactersPerPage = 16;
+    const charactersPerPage = 22;
     const lastCharacterIndex = page * charactersPerPage; //15;
     const firstCharacterIndex = lastCharacterIndex - charactersPerPage; // 10
     const charactersPaginated = characterList.slice(

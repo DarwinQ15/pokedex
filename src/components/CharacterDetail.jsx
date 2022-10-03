@@ -28,7 +28,7 @@ const CharacterDetail = () => {
             .then((res) => setCharacter({
                 name: res.data.name,
                 id: res.data.id,
-                image: `https://cdn.traction.one/pokedex/pokemon/${res.data.id}.png`,
+                image: res.data.sprites.other.home.front_default,
                 abilities: res.data.abilities[0].ability.name,
                 type: res.data.types[0].type.name,
                 weight: res.data.weight,

@@ -19,7 +19,7 @@ const CharacterCard = ({url}) => {
         .then(res=> setCharacter({
             name: res.data.name,
             id: res.data.id,
-            image: `https://cdn.traction.one/pokedex/pokemon/${res.data.id}.png`,
+            image: res.data.sprites.other.home?.front_default,
             type: res.data.types[0].type.name,
             hp: res.data.stats[0].base_stat,
             attack: res.data.stats[1].base_stat,
