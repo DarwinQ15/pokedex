@@ -52,8 +52,8 @@ const CharacterDetail = () => {
     return (
         <div className={'ui container'}>
             <div className='left-pagination'>
-                <Link to={'/character'}><i className='bx bx-left-arrow-alt'></i></Link>
-            
+                <Link to={'/character'} ><i className='bx bx-left-arrow-alt'></i>
+                </Link>
             </div>
             <div className='image-logo'>
                 <img className='img-presentation' src="https://logos-marcas.com/wp-content/uploads/2020/05/Pokemon-Logo.png" alt="" />
@@ -64,9 +64,11 @@ const CharacterDetail = () => {
                 </div>
                 <div className='weigth-heigth'>
                     <div>
+                        <h2>Height</h2>
                         <strong>{character?.height}</strong><br /><span>Heigth</span>
                     </div>
                     <div>
+                        <h2>Weight</h2>
                         <strong>{character?.weight}</strong><br /><span>weight</span>
                     </div>
                 </div>

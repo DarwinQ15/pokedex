@@ -13,11 +13,10 @@
     display: flex;
     align-items: flex-start;
     padding-bottom: 35px;
-    padding-top: 20px;
 }
 
 .img-presentation{
-    width: 117px;
+    width: 190px;
     margin-bottom: 20px;
 }
 
@@ -41,7 +40,7 @@
 }
 
 .info-pokemon-weigth img{
-    width: 259px;
+    width: 290px;
     height: auto;
     margin: -111px 0 0 0;
     transition: .5s;
@@ -68,6 +67,11 @@
 .weigth-heigth{
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
+}
+
+.weigth-heigth h2{
+    font-weight: 600;
 }
 
 .name-pokemon h2{
@@ -79,7 +83,7 @@
 .id{
     display: flex;
     justify-content: center;
-    width: 40px;
+    width: 59px;
     height: 30px;
     margin: 0 auto;
     border: 1px solid rgba(34,36,38,.15);

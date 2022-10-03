@@ -77,7 +77,7 @@ const Character = () => {
     return (
         <div className='container'>
             <div className='right-pagination'>
-                <Link to={'/'}>
+                <Link to={'/'} onClick={searchUrl}>
                     <i className='bx bx-log-out'></i>
                 </Link>
             </div>
